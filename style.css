@@ -1,16 +1,172 @@
-body{
-    background:#111;
-    color:white;
-    text-align:center;
-    font-family:Arial;
+element.style {
+}
+body {
+    overflow-x: hidden;
+}
+html, body {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--text-color);
+    font-size: var(--text-size-default);
+    background: var(--primary-background);
 }
 
-a{
-    background:gold;
-    color:black;
-    padding:10px 20px;
-    border-radius:10px;
-    text-decoration:none;
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
-body{
-<img src="/images/upload-Slides-20220603114551.jpg" class="d-block w-100 banner" alt="" style="height: 100%">
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+style attribute {
+    --vh: 9.27px;
+}
+:root {
+    --secondary-background: #0b0b0b;
+    --primary-theme-color: black;
+    --reverse-theme-color: white;
+    --highlight-text-color: #FFD700;
+    --page-link-background: linear-gradient(0deg, rgba(23, 26, 33, 1) 0%, rgba(71, 81, 99, 1) 100%);
+    --page-link-color: var(--primary-text-color);
+    --page-link-border: 1px solid #bdbdbd;
+    --page-item-active-color: linear-gradient(0deg, rgba(18, 20, 25, 1) 0%, rgba(7, 8, 10, 1) 100%);
+    --page-item-active-background: var(--primary-color);
+    --page-item-active-border: 1px solid var(--primary-color);
+    --devider-color: linear-gradient(90deg, rgba(224, 224, 224, 1) 0%, rgba(224, 224, 224, 1) 25%, rgba(97, 97, 97, 1) 25%, rgba(97, 97, 97, 1) 100%);
+    --prepend-background: linear-gradient(#484e55, #3a3f44 60%, #313539);
+    --prepend-color: #ffffff;
+    --prepend-border: 0px;
+    --content-box-background: rgba(20, 20, 20, .5);
+    --informasi-menu-background: #333;
+    --informasi-content-background: #000;
+}
+:root {
+    --text-size-default: .875rem;
+    --button-masuk-color: linear-gradient(#f17a77, #ee5f5b 60%, #ec4d49);
+    --button-daftar-color: linear-gradient(#74cae3, #5bc0de 60%, #4ab9db);
+    --menu-background: #0f212e;
+    --header-background: var(--primary-background);
+    --content-background: var(--primary-background);
+    --togel-background: var(--primary-background);
+    --provider-background: var(--secondary-background);
+    --transaksi-background: var(--secondary-background);
+    --bantuan-background: var(--secondary-background);
+    --guidelines-background: var(--secondary-background);
+    --footer-background: var(--secondary-background);
+    --button-promosi-color: linear-gradient(60deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    --content-body-background: linear-gradient(0deg, var(--togel-background) 0%, var(--marquee-background) 100%);
+    --mobile-padding-horizontal: 32px;
+}
+:root {
+    --bs-primary-rgb: 160, 133, 64 !important;
+    --bs-primary-rgba: rgba(var(--bs-primary-rgb), 0.7) !important;
+    --primary-color: #a08540 !important;
+    --bs-primary: var(--primary-color) !important;
+    --primary-background: #402f04 !important;
+    --line-color: #a08540 !important;
+    --marquee-color: #000000 !important;
+    --marquee-background: rgba(212, 187, 130, 1) !important;
+    --result-pasaran-color: #FFFFFF !important;
+    --result-tanggal-color: #000000 !important;
+    --result-tanggal-background: linear-gradient(0deg, rgba(209, 190, 131, 1) 0%, rgba(176, 150, 75, 1) 100%) !important;
+    --result-background: #111111 !important;
+    --result-keluaran-color: #ffffff !important;
+    --result-border: 3px solid #9e9e9e !important;
+    --text-color: #e0e0e0 !important;
+    --primary-text-color: #ffffff !important;
+    --reverse-text-color: #000000 !important;
+    --secondary-background: #000000 !important;
+    --hover-background: rgba(0, 0, 0, .9) !important;
+    --menu-item-color: var(--text-color) !important;
+}
+:root {
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+:root, [data-bs-theme=light] {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-black: #000;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-primary-text-emphasis: #052c65;
+    --bs-secondary-text-emphasis: #2b2f32;
+    --bs-success-text-emphasis: #0a3622;
+    --bs-info-text-emphasis: #055160;
+    --bs-warning-text-emphasis: #664d03;
+    --bs-danger-text-emphasis: #58151c;
+    --bs-light-text-emphasis: #495057;
+    --bs-dark-text-emphasis: #495057;
+    --bs-primary-bg-subtle: #cfe2ff;
+    --bs-secondary-bg-subtle: #e2e3e5;
+    --bs-success-bg-subtle: #d1e7dd;
+Show all properties (65 more)
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/ubuntu/v21/4iCs6KVjbNBYlgoKcg72j00.woff2) format('woff2');
+    unicode-range: U +0460 -052F, U +1C80 -1C8A, U +20B4, U +2DE0 -2DFF, U + A640-A69F, U + FE2E-FE2F;
